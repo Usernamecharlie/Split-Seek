@@ -185,7 +185,7 @@ The application is deployed and available for immediate testing here:
 # 10. Author and Acknowledgment
 * **Author:** Maxwell Kroll
 * **Course:** CISC-121
-* **Statement:** This project was completed for the CISC 1XX Binary Search visualization assignment using Python and Gradio.
+* **Statement:** This project was completed for CISC 121 at Queen's university, for the "Python App for one Searching or one Sorting Algorithm visual simulation" assignment using Python and Gradio.
 
 ---
 
