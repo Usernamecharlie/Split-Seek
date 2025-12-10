@@ -14,7 +14,7 @@ pinned: false
 This project is an interactive web application that visually simulates the **Binary Search** algorithm. Built using **Python** and the **Gradio** UI library, it is designed to help students understand the "Divide and Conquer" strategy by animating how the search space is repeatedly halved until a target value is found.
 
 ***
-👉 **RUBRIC MAP:** This document is intentionally structured to follow the CISC-121 project rubric categories, including **Problem Breakdown & Computational Thinking**, **Algorithm Implementation**, **Use of Python Libraries for GUI**, **Testing & Verification**, and **Documentation**.
+**RUBRIC MAP:** This document is intentionally structured to follow the CISC-121 project rubric categories, including **Problem Breakdown & Computational Thinking**, **Algorithm Implementation**, **Use of Python Libraries for GUI**, **Testing & Verification**, and **Documentation**.
 ***
 
 ---
