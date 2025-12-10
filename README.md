@@ -87,7 +87,6 @@ I used a state object (`gr.State`) to remember variables between button clicks. 
 The following flowchart illustrates the logical flow of the algorithm:
 
 
-[Image of Binary Search Flowchart Diagram]
 
 
 ```mermaid
