@@ -34,8 +34,9 @@ To make the algorithm easy to follow, I have used a specific color legend:
 I have chosen to implement the **Binary Search** algorithm.
 
 **Why I Chose It:**
-I chose Binary Search because it is a classic example of the **Divide & Conquer** strategy, has a clear **$O(\log n)$** time complexity contrast with Linear Search ($O(n)$) , and is highly effective to visualize step-by-step for teaching.
+[cite_start]I chose Binary Search because it is a classic example of the **Divide & Conquer** strategy, has a clear **$O(\log n)$** time complexity contrast with Linear Search ($O(n)$) [cite: 147, 149][cite_start], and is highly effective to visualize step-by-step for teaching.
 
+**Overview:**
 **Overview:**
 Binary search is an efficient method for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
 
