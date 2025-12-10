@@ -186,6 +186,14 @@ The application is deployed and available for immediate testing here:
 * **Author:** Maxwell Kroll
 * **Course:** CISC-121
 * **Statement:** This project was completed for CISC 121 at Queen's university, for the "Python App for one Searching or one Sorting Algorithm visual simulation" assignment using Python and Gradio.
+* **AI Disclaimer and Acknowledgment**
+I used **ChatGPT 5.1** to significantly assist in the visualization, testing, and documentation stages of this project.
+
+Specifically, the AI was instrumental in:
+* **Visualizing Logic:** Converting the Python logic into abstract visual representations, such as drafting the initial concept for the flowchart diagram and suggesting the color-coding scheme (e.g., finding the appropriate light grey color code like `#f0f0f0` used for the array boxes). This greatly improved my efficiency and taught me how to utilize clear visual cues for future projects.
+* **Workflow Optimization and Debugging:** The AI served as a powerful tool for streamlining my development workflow, providing rapid insights for general code troubleshooting and debugging. This significantly reduced non-algorithmic development time.
+* **Code Troubleshooting:** Providing support for general code troubleshooting and debugging.
+* **Documentation Support:** Assisting with Markdown syntax. I faced a recurring issue during the documentation phase (Step 6) where I struggled to correctly indent sub-bullet points in section 6. ChatGPT 5.1 helped identify and provide the correct Markdown syntax to achieve the complex formatting I had in mind for the `README.md`.
 
 ---
 
