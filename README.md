@@ -34,7 +34,7 @@ To make the algorithm easy to follow, I have used a specific color legend:
 I have chosen to implement the **Binary Search** algorithm.
 
 **Why I Chose It:**
-[cite_start]I chose Binary Search because it is a classic example of the **Divide & Conquer** strategy, has a clear **$O(\log n)$** time complexity contrast with Linear Search ($O(n)$) [cite: 147, 149][cite_start], and is highly effective to visualize step-by-step for teaching.
+I chose Binary Search because it is a classic example of the **Divide & Conquer** strategy, has a clear time complexity contrast with Linear Search, and is highly effective to visualize step-by-step for teaching.
 
 **Overview:**
 **Overview:**
