@@ -1,5 +1,5 @@
 ---
-title: Binary Search Visualizer
+title: Split and Seek
 emoji: 🔍
 colorFrom: indigo
 colorTo: blue
