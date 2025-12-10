@@ -189,6 +189,7 @@ The application is deployed and available for immediate testing here:
 I used **ChatGPT 5.1** to significantly assist in the visualization, testing, and documentation stages of this project.
 
 Specifically, the AI was instrumental in:
+* **Platform Integration and Setup:** The AI assisted significantly in troubleshooting deployment issues across multiple environments. [cite_start]This included understanding the required configuration files (`requirements.txt`) [cite: 210] for **Hugging Face Spaces** and resolving local environment path issues when setting up the initial GitHub repository on my computer.
 * **Visualizing Logic:** Converting the Python logic into abstract visual representations, such as drafting the initial concept for the flowchart diagram and suggesting the color-coding scheme (e.g., finding the appropriate light grey color code like `#f0f0f0` used for the array boxes). This greatly improved my efficiency and taught me how to utilize clear visual cues for future projects.
 * **Workflow Optimization and Debugging:** The AI served as a powerful tool for streamlining my development workflow, providing rapid insights for general code troubleshooting and debugging. This significantly reduced non-algorithmic development time.
 * **Code Troubleshooting:** Providing support for general code troubleshooting and debugging.
