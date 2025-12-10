@@ -118,7 +118,7 @@ flowchart TD
 # 6. Data Types and Structures
 As per the project requirements, I explicitly state the data structures used:
 
-* **The List:** Stored as a **Python List of Integers** (e.g., `[1, 5, 8, 12]`).
+* **The List:** Stored as a **Python List of Integers**.
 * **The Target:** Stored as a single **Integer**.
 * **The Algorithm State:** Stored in a **Dictionary** passed to `gr.State`. This dictionary acts as the app's persistent memory and contains:
     * `arr`: The sorted list of integers.
@@ -137,11 +137,10 @@ To run this application locally on your machine:
 
 1.  **Clone the Repository**
     ```bash
-    git clone [YOUR_GITHUB_LINK_HERE]
-    cd [YOUR_REPO_NAME]
+    git clone [https://github.com/Usernamecharlie/Split-Seek](https://github.com/Usernamecharlie/Split-Seek)
+    cd Split-Seek
     ```
 2.  **Install Requirements**
-    *(Tested with Python 3.9+)*
     ```bash
     pip install -r requirements.txt
     ```
@@ -150,7 +149,7 @@ To run this application locally on your machine:
     python app.py
     ```
 4.  **Open in Browser**
-    The terminal will provide a local URL (usually `http://127.0.0.1:7860`). Click it to open the app.
+    The terminal will provide a local URL (usually `http://127.0.0.1:7860`).
 
 ---
 
@@ -159,10 +158,9 @@ I performed extensive testing to ensure the algorithm handles standard and edge 
 
 | Test Case | Expected Outcome | Actual Result |
 | :--- | :--- | :--- |
-| **Target in Middle** | Highlight Yellow, then Green immediately. | ✅ **Success** (Found in 1 step). |
-| **Target at Start/End** | Algorithm should narrow down to index 0 or N-1. | ✅ **Success** (Correctly found at bounds). |
+| **Target in Middle** | Highlight Yellow, then Green immediately. | ✅ **Success** |
+| **Target at Start/End** | Algorithm should narrow down to index 0 or N-1. | ✅ **Success** |
 | **Target Not Present** | `low` becomes > `high`, log says "Not Found". | ✅ **Success** (See Figure 3 below). |
-| **Single Element List** | Works normally for list of length 1. | ✅ **Success** (Handled correctly). |
 | **Empty Input** | Warning message, no crash. | ✅ **Success** (See Figure 2 below). |
 | **Unsorted Input** | App should sort it automatically. | ✅ **Success** (List appeared sorted in UI). |
 
@@ -172,19 +170,20 @@ Below are screenshots demonstrating the app's robustness:
 | Empty Input Handling (Validation) | Target Not Found (Logic) |
 | :---: | :---: |
 | ![Error Handling](test_error_handling.png) <br> *Figure 2: App gracefully handling empty input.* | ![Not Found](test_not_found.png) <br> *Figure 3: App correctly determining target is missing.* |
+
 ---
 
 # 9. Hugging Face Link
 The application is deployed and available for immediate testing here:
 
-👉 **[https://huggingface.co/spaces/Username3030/Split_and_Seek](https://huggingface.co/spaces/Username3030/Split_and_Seek)**
+👉 **[https://huggingface.co/spaces/Username3030/SPLIT\_and\_SEEK](https://huggingface.co/spaces/Username3030/SPLIT\_and\_SEEK)**
 
 *You can test the app directly in your browser without installing any files.*
 
 ---
 
 # 10. Author and Acknowledgment
-* **Author:** [Your Name Here]
+* **Author:** Maxwell Kroll
 * **Course:** CISC-121
 * **Statement:** This project was completed for the CISC 1XX Binary Search visualization assignment using Python and Gradio.
 
@@ -192,7 +191,7 @@ The application is deployed and available for immediate testing here:
 
 ## 11. Reflection & Limitations
 * **Current Limitation:** The app currently supports integer lists only.
-* **Future Improvement:** It could be extended to support Strings (alphabetical binary search) or to compare Linear vs Binary search side-by-side to visualize the speed difference.
+* **Future Improvement:** Could be extended to support Strings or to compare Linear vs Binary search side-by-side.
 
 ## 12. Project Deliverables Table
 | File | Description |
@@ -200,5 +199,5 @@ The application is deployed and available for immediate testing here:
 | `app.py` | Main application file containing logic and UI. |
 | `requirements.txt` | List of dependencies (Gradio). |
 | `README.md` | Complete documentation (this file). |
-| `Screenshots` | `demo_working.png` and `test_error_handling.png` for verification. |
-| **Hugging Face App Link** | The deployed version of your app (Linked in Section 9). |
+| `Screenshots` | `demo_working.png`, `test_error_handling.png`, and `test_not_found.png` for verification. |
+| **Hugging Face App Link** | The deployed version of your app: **https://huggingface.co/spaces/Username3030/SPLIT\_and\_SEEK**. | (Linked in Section 9). |
