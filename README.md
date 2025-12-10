@@ -200,4 +200,4 @@ The application is deployed and available for immediate testing here:
 | `requirements.txt` | List of dependencies (Gradio). |
 | `README.md` | Complete documentation (this file). |
 | `Screenshots` | `demo_working.png`, `test_error_handling.png`, and `test_not_found.png` for verification. |
-| **Hugging Face App Link** | The deployed version of your app: **https://huggingface.co/spaces/Username3030/SPLIT\_and\_SEEK**. | (Linked in Section 9). |
+| **Hugging Face App Link** | The deployed version of app: **https://huggingface.co/spaces/Username3030/SPLIT\_and\_SEEK**. | (Linked in Section 9). |
